@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sree Dattha Institutions Registration</title>
+
+<style>
+  body {
+  font-family: sans-serif;
+  padding: 25px;
+}
+img{
+    width: 475px;
+    height: 300;
+    align-items: center;
+    align-content: center;
+}
+.container {
+  width: 500px;
+  margin: 50px auto;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(223, 44, 44, 0.1);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #ea0e0e;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 0px;
+}
+
+button {
+  background-color: #ce1616;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #20ee1c;
+}
+.pavan{
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  p.double {
+    border-style: double;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <p class="double">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc13n9j2KSfv7AZ4eX6ff0clKog4cJMrNOx2CHI_obHm-yeBdHIKRQezpDD3j83iCI_w&usqp=CAU" alt="SREE DATTHA INSTITUTIONS" style="text-align:center";>
+    <h1 style="color: rgb(232, 40, 6); align-items: center;">REGISTRATION FORM</h1>
+  <form>
+    <div class="form-group">
+      <label for="name">NAME:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+    <b>  <label for="Roll_NUMBER">ROLL_NUMBER:</label></b>
+      <input type="text" id="ROLL_NUMBER" name="ROLL_NUMBER" required>
+    </div>
+    <div class="form-group">
+        <b> <label for="year">YEAR:</label></b>
+         <select id="year" name="year" required>
+           <option value="">Select Year</option>
+           <option value="1st Year">1st Year</option>
+           <option value="2nd Year">2nd Year</option>
+           <option value="3rd Year">3rd Year</option>
+           <option value="4th Year">4th Year</option>
+         </select>
+       </div>
+    <div class="form-group">
+        <b><label for="course">COURSE:</label></b>
+        <select id="course" name="course" required>
+          <option value="">Select Course</option>
+          <option value="Computer science and Engineering">Computer science and Engineering</option>
+          <option value="Computer Scienc andCyber Security">Computer Science and Cyber Security</option>
+          <option value="Computer Science and Data Science">Computer Science and Data Science</option>
+          <option value="Computer Science and Business System">Computer Science and Business System</option>
+          <option value="Computer science and Information Technology">Computer science and Information Technology</option>
+          <option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+          <option value=" Electrical and Electronics Engineering"> Electrical and Electronics Engineering</option>
+          <option value="Artificial Intelligence and Machine Learning">Artificial Intelligence and Machine Learning</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <b><label for="gender">GENDER:</label></b>      <div class="radio-group">
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+          <input type="radio" id="others" name="gender" value="others">
+          <label for="others">others</label>
+        </div></label>
+      </div>
+    <div class="form-group">
+      <label for="email">E-MAIL:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="password">PASSWORD:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+<button onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16">
+  <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286"/>
+</svg></button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+</p>
+<p>if already have registered    <a href="http://127.0.0.1:5500/sdesloginpage.html#" <b>login here</b></p>
+</body>
+</html>
