@@ -1,1 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sree Dattha Institutions Registration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    background-image: url(https://img.freepik.com/premium-photo/abstract-art-graphic-background-copy-space_951133-7800.jpg?size=626&ext=jpg&ga=GA1.1.1185709995.1720530883&semt=ais_user);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden;
+}
+img{
+    width: 475px;
+    height: 150px;
+    align-items: center;
+    align-content: center;
+    border-radius: 15px;
+    box-shadow: 20px 20px 30px rgb(30, 26, 26);
+}
+.container {
+  width: 500px;
+  margin: 70px auto;
+  padding: 0px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(223, 44, 44, 0.1);
+  backdrop-filter: blur(10px);
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #09c6f5;
+}
 
+.form-group {
+  margin-bottom: 5px;
+  vertical-align:bottom;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e83b3b;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 0px;
+}
+
+button{
+  background-color: #ce1616;
+  color: #fff;
+  align-self: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  filter: drop-shadow(0 0 10px #fffdef);
+  justify-content: center;
+  display: inline;
+}
+p{
+  text-align: center;
+}
+a{
+  text-align: center;
+  color: darkviolet;
+}
+.radio-label {
+   display: inline-block;
+    vertical-align: top;
+    margin-right: 5%;
+
+}
+.radio-input {
+   display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+}
+.text-center {
+  text-align: center;
+  padding: auto;
+  border: 10px;
+  display: block;
+}
+fieldset{
+  border-radius: 10px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <p class="double">
+    <fieldset>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc13n9j2KSfv7AZ4eX6ff0clKog4cJMrNOx2CHI_obHm-yeBdHIKRQezpDD3j83iCI_w&usqp=CAU"alt="SREE DATTHA INSTITUTIONS" style="text-align:center";>
+  <H1 style="color: #e83b3b;"><legend>REGISTRATION PAGE</legend></H1>
+  <form>
+    <div class="form-group">
+      <label for="name">NAME:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+    <b>  <label for="Roll_NUMBER">ROLL_NUMBER:</label></b>
+      <input type="text" id="ROLL_NUMBER" name="ROLL_NUMBER" required>
+    </div>
+    <div class="form-group">
+        <b> <label for="year">YEAR:</label></b>
+         <select id="year" name="year" required>
+           <option value="">Select Year</option>
+           <option value="1st Year">1st Year</option>
+           <option value="2nd Year">2nd Year</option>
+           <option value="3rd Year">3rd Year</option>
+           <option value="4th Year">4th Year</option>
+         </select>
+       </div>
+    <div class="form-group">
+        <b><label for="course">COURSE:</label></b>
+        <select id="course" name="course" required>
+          <option value="">Select Course</option>
+          <option value="Computer science and Engineering">Computer science and Engineering</option>
+          <option value="Computer Scienc andCyber Security">Computer Science and Cyber Security</option>
+          <option value="Computer Science and Data Science">Computer Science and Data Science</option>
+          <option value="Computer Science and Business System">Computer Science and Business System</option>
+          <option value="Computer science and Information Technology">Computer science and Information Technology</option>
+          <option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+          <option value=" Electrical and Electronics Engineering"> Electrical and Electronics Engineering</option>
+          <option value="Artificial Intelligence and Machine Learning">Artificial Intelligence and Machine Learning</option>
+        </select>
+      </div>
+      <form>
+            <div class="form-group">
+              <label for="password">Gender:</label>
+            </div>
+            <div>
+                <input class="radio-input" type="radio" name="Male" value="yes" />
+                <label class="radio-label">Male</label>
+                <input class="radio-input" type="radio" name="Female" value="yes" />
+                <label class="radio-label">Female</label>
+                <input class="radio-input" type="radio" name="Others" value="yes" />
+                <label class="radio-label">Others</label>
+            </div>
+      <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="password" id="email" name="email" required>
+            </div>
+    <div class="form-group">
+      <label for="password">PASSWORD:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div class="text-center">
+      <button type="submit">Submit</button>
+    </div>
+    <p><b>If already had registered    <a href="http://127.0.0.1:5500/sdesloginpage.html#"</b> log in</b></p>
+   <a  href="https://www.sreedattha.ac.in/"><h2>SREE DATTHA INSTITUTIONS</h2></a>
+  </form>
+</div>
+</p>
+</fieldset>
+</body>
+</html>
