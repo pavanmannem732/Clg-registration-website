@@ -26,8 +26,6 @@ img{
   border-radius: 20px;
   box-shadow: 0 2px 5px rgba(223, 44, 44, 0.1);
   backdrop-filter: blur(10px);
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden;
 }
 h1 {
   text-align: center;
