@@ -10,8 +10,6 @@
   background-position: center;
   height: 100vh;
   margin: 0;
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden;
 }
 img{
     width: 475px;
